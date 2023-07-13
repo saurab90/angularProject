@@ -16,3 +16,9 @@ https://www.youtube.com/watch?v=LtT01ZCHRjk&list=PLTjRvDozrdlxAhsPP4ZYtt3G8KbJ44
 Angular 14 CRUD with .NET 6 Web API using Entity Framework Core - Full Course
 https://www.youtube.com/watch?v=CdE6rVfPJ9I
 
+===================================================
+master-details:
+https://www.youtube.com/watch?v=R2dOyHJu4a8
+https://github.com/CodAffection/Angular-7-Master-Detail-CRUD-with-Web-API/tree/master/Angular7
+
+
