@@ -1,0 +1,35 @@
+
+<div class="container my-5">
+    <h1 class="mb-3">Edit Employee</h1>
+    <form #form="ngForm" (ngSubmit)="editEmployeeData()">
+      <div class="mb-3">
+        <label for="id" class="form-label">ID</label>
+        <input type="text" class="form-control" id="id" name="id" [(ngModel)]="editEmpRequest.id">
+      </div> 
+
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" name="name" [(ngModel)]="editEmpRequest.name">
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" name="email" [(ngModel)]="editEmpRequest.email">
+        </div>
+        <div class="mb-3">
+            <label for="phone" class="form-label">Phone</label>
+            <input type="number" class="form-control" id="phone" name="phone" [(ngModel)]="editEmpRequest.phone">
+          </div>
+        <div class="mb-3">
+            <label for="salary" class="form-label">Salary</label>
+            <input type="number" class="form-control" id="salary" name="salary" [(ngModel)]="editEmpRequest.salary">
+        </div>
+        <div class="mb-3">
+            <label for="department" class="form-label">Department</label>
+            <input type="text" class="form-control" id="department" name="department" [(ngModel)]="editEmpRequest.department">
+        </div>
+          <button type="submit" class="btn btn-primary mr-5">Submit</button>
+
+          <button type="button" class="btn btn-danger" (click)="deleteEmpData(editEmpRequest.id)">Delete</button>
+
+      </form>
+</div>

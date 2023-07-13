@@ -1,0 +1,26 @@
+<div class="container my-5">
+    <h2>Employee</h2>
+    <table class="table" *ngIf="employeeData && employeeData.length > 0 ">
+        <thead>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Salary</th>
+            <th>Department</th>
+            <th></th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let emp of employeeData">
+                <td>{{emp.id}}</td>
+                <td>{{emp.name}}</td>
+                <td>{{emp.email}}</td>
+                <td>{{emp.phone}}</td>
+                <td>{{emp.salary}}</td>
+                <td>{{emp.department}}</td>
+                <td><a [routerLink]="['/employee','edit',emp.id]">view</a></td>
+            </tr>
+        </tbody>
+    </table>
+    <p *ngIf="!employeeData || employeeData.length <= 0"> No Data available</p>
+</div>
