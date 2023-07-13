@@ -1,0 +1,14 @@
+https://www.youtube.com/watch?v=w_xdJ8MNc7w
+for api project :
+https://www.youtube.com/watch?v=4a9VxZjnT7E
+
+angular:
+https://www.youtube.com/watch?v=WaT_yGzm47I
+====================================================
+Installation process:
+1. install node latest version
+2. https://linuxhint.com/fix-ng-not-recognize-internal-external-command-windows-10/
+
+angular js with mosh hamidani: ***
+https://www.youtube.com/watch?v=k5E2AVpwsko&list=PLTjRvDozrdlxAhsPP4ZYtt3G8KbJ449oT
+
